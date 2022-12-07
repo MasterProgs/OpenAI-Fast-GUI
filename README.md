@@ -2,7 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/47997521/206051216-28f3a5bd-e49c-4358-9007-962ac0b5112c.png)
 
-This Electron app provides a simple interface for accessing the OpenAI chatbot. It loads the chatbot at https://chat.openai.com/chat in a browser window, and allows the user to toggle the visibility of the window using the global shortcut specified in the `SHORTCUT` environment variable.
+This Electron app provides a simple interface for accessing the OpenAI chat. 
+It loads the chat at https://chat.openai.com/chat in a browser window, and allows the user to toggle the visibility of the window using the global shortcut specified in the `SHORTCUT` environment variable.
 
 ## Requirements
 
