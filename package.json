@@ -1,18 +1,16 @@
 {
-    "name": "electron-demo-app",
+    "name": "openai-fast-gui",
     "version": "1.0.0",
-    "description": "A simple Electron.js demo application",
+    "description": "This Electron app provides a simple interface for accessing the OpenAI chat. It loads the chat at https://chat.openai.com/chat in a browser window, and allows the user to toggle the visibility of the window using the global shortcut specified in the SHORTCUT environment variable.",
     "main": "main.js",
     "scripts": {
         "start": "electron ."
     },
-    "author": "Your Name",
+    "author": "github.com/masterprogs",
     "devDependencies": {
         "electron": "^8.5.5"
     },
     "dependencies": {
-        "dotenv": "^16.0.3",
-        "electron-cookies": "^1.1.0",
-        "electron-packager": "^17.1.1"
+        "dotenv": "^16.0.3"
     }
 }
