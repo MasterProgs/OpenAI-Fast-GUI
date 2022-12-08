@@ -70,7 +70,7 @@ app.on('second-instance', () => mainWindow && mainWindow.focus());
 
 app.on('ready', () => {
     // Register a 'process.env.SHORTCUT' shortcut listener. Default is Control+Alt+
-    globalShortcut.register(process.env.SHORTCUT | 'Control+Alt+,', () => {
+    globalShortcut.register(process.env.SHORTCUT || 'Control+Alt+,', () => {
       // Do something when 'process.env.SHORTCUT' is pressed.
       if (mainWindow) {
         if (mainWindow.isVisible()) {
