@@ -19,10 +19,10 @@ It loads the chat at https://chat.openai.com/chat in a browser window, and allow
 4. Start the app by running `npm start`.
 5. Press the `SHORTCUT` key to toggle the visibility of the chatbot window.
 
-## .env file
+## Custom shortcut
 - Create .env file in the same folder as the executable
 
-For example, the content can be :
+For example, the default SHORTCUT is :
 ```
 SHORTCUT=Control+Alt+,
 ```
